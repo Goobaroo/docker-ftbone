@@ -7,7 +7,7 @@ LABEL homepage.group=Minecraft
 LABEL homepage.name="FTB One"
 LABEL homepage.icon="https://apps.modpacks.ch/modpacks/art/93/logo.png"
 LABEL homepage.widget.type=minecraft
-LABEL homepage.widget.url=FTB-One:25565
+LABEL homepage.widget.url=udp://FTB-One:25565
 
 
 RUN apt-get update && apt-get install -y curl && \
